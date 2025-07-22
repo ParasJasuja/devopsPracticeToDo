@@ -9,5 +9,8 @@ export default defineConfig({
   },
   build: {
     outDir: 'build'
-  }
+  },
+  server: {
+    port: 3010, // Change this to whatever port you prefer
+  },
 })
